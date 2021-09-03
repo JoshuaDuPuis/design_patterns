@@ -13,11 +13,11 @@ public interface Observer {
    * by adding a new book to the list.
    * @param book The book to be added to the list of best-sellers
    */
-  public void update (Book book);
+  public void update(Book book);
 
   /**
    * The display method displays the list of best-selling books contained in
    * either a store or a customer object.
    */
-  public void display ();
+  public void display();
 }
