@@ -21,10 +21,11 @@ public class Store implements Observer{
    * program it will be best-selling books
    * @param title The title of the store passed in by the user
    */
-  public Store (Subject subject, String title) {
+  public Store(Subject subject) {
     this.subject = subject;
-    this.title = title;
-    this.bestSellers = new LinkedList();
+    this.bestSellers = new LinkedList<Book>();
+    this.subject = subject;
+    this.subject.registerObserver(this);
   }
 
   /**
@@ -34,13 +35,33 @@ public class Store implements Observer{
    * @param book The new best-selling book passed in by the user
    */
   public void update(Book book) {
-
+    this.bestSellers.add(book);
+    if (getNumOfBooks() == 6) {
+        this.bestSellers.remove();
+    } 
   }
 
   /**
    * The display method prints the store's list of best-selling books.
    */
   public void display() {
-
+    for (Book book: bestSellers) {
+        System.out.println( " - " + book.toString());
+    }
+    System.out.println();    
   }
+  
+  /**
+   * The getNumOfBooks method is a private method that determines how many
+   * books are currently in the best-sellers list.
+   * @return Returns the number of books in the list
+   */
+  private int getNumOfBooks() {
+    int numOfBooks = 0;
+    for (Book book: bestSellers) {
+      numOfBooks++;
+    }
+    return numOfBooks;
+  }
+
 }

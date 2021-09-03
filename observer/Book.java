@@ -26,7 +26,7 @@ public class Book {
    * @return Returns a string - the title of the book
    */
   public String getTitle() {
-    return "";
+    return this.title;
   }
 
   /**
@@ -34,8 +34,8 @@ public class Book {
    * specific book object.
    * @return Returns a string - the first name of the author of a book
    */
-  public String getAuthorFirstName () {
-    return "";
+  public String getAuthorFirstName() {
+    return this.authorFirstName;
   }
 
   /**
@@ -44,7 +44,7 @@ public class Book {
    * @return Returns a string - the last name of the author of a book
    */
   public String getAuthorLastName() {
-    return "";
+    return this.authorLastName;
   }
 
   /**
@@ -53,7 +53,7 @@ public class Book {
    * @return A string containing the title and author of the specific book
    */
   public String toString() {
-    return "";
+    return this.title + " by: " + this.authorFirstName + " " + this.authorLastName;
   }
     
 }

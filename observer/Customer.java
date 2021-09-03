@@ -28,6 +28,8 @@ public class Customer implements Observer {
     this.subject = subject;
     this.firstName = firstName;
     this.lastName = lastName;
+    this.subject = subject;
+    subject.registerObserver(this);
   }
 
   /**
@@ -36,14 +38,17 @@ public class Customer implements Observer {
    * @param book The book to be added to the wish list
    */
   public void update(Book book) {
-
+    wishList.add(book);
   }
 
   /**
    * The display method prints out the customer's wish list of books.
    */
   public void display() {
-
+    System.out.println("Wish List:");
+    for (Book book: wishList) {
+        System.out.println( " - " + book.toString());
+    }
   }
     
 }
