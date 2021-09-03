@@ -45,6 +45,7 @@ public class Store implements Observer{
    * The display method prints the store's list of best-selling books.
    */
   public void display() {
+    System.out.println("Top 5 Best Sellers:");
     for (Book book: bestSellers) {
         System.out.println( " - " + book.toString());
     }
