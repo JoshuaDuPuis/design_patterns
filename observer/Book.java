@@ -1,5 +1,11 @@
 package observer;
 
+/**
+ * The book class defines a book that will be put into a best-sellers list.
+ * It specifies the title of the book as well as the author's first and last
+ * name.
+ * @author Joshua DuPuis
+ */
 public class Book {
 
   private String title;

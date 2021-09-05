@@ -14,6 +14,7 @@ public class BestSellers implements Subject{
    * The BestSellers constructor initializes two ArrayLists, observers and
    * bestSellers, which will contain each registered observer and a list of
    * the best-selling books, respectively.
+   * @author Joshua DuPuis
    */
   public BestSellers() {
     observers = new ArrayList<Observer> ();
