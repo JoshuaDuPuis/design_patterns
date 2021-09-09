@@ -17,7 +17,7 @@ public class Nose extends CharacterDecorator {
   }
 
   /**
-   * The customize method changes the sixth element of the sections ArrayList
+   * The customize method changes the fifth element of the sections ArrayList
    * to add a nose to the character.
    */
   public void customize() {
