@@ -1,0 +1,47 @@
+Log Cabin
+Square Feet: 1800
+Room: 2
+Windows: 10
+
+Materials:
+ - Log Siding
+ - Board and Batten Siding
+ - White Pine
+
+Features:
+ - Timbered Roof
+ - High Insulation
+ - Rustic Effect
+
+Tiny House
+Square Feet: 200
+Room: 1
+Windows: 5
+
+Materials:
+ - Lumber
+ - Insulation
+ - Metal Roofing
+ - Hardware
+
+Features:
+ - Natural Light
+ - Creative Storage
+ - Multipurpose areas
+ - Multi-use applications
+
+Contemporary Home
+Square Feet: 3000
+Room: 5
+Windows: 40
+
+Materials:
+ - Ceramics
+ - High-Stength Alloys
+ - Composites
+
+Features:
+ - Oversized Windows
+ - Unconventional Roofs
+ - Minimalism
+ - Open Floor Plan
