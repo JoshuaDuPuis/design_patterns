@@ -1,0 +1,29 @@
+Flight Number: 477B
+From: Charlotte
+To: Seattle
+Duration: 14 hours 20 minutes
+1 Transfer
+
+Flight Number: 877F
+From: Florida
+To: NY
+Duration: 6 hours 40 minutes
+1 Transfer
+
+Flight Number: 673G
+From: Chicago
+To: Texas
+Duration: 20 hours 50 minutes
+2 Transfers
+
+Flight Number: 773C
+From: NY
+To: Charlotte
+Duration: 2 hours 0 minutes
+Direct Flight
+
+Flight Number: 233B
+From: Atlanta
+To: Seattle
+Duration: 16 hours 0 minutes
+1 Transfer
