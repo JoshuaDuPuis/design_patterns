@@ -15,8 +15,8 @@ public class Airline {
    */
   public Airline(String title) {
     this.title = title;
-    size = 1;
-    flights = new Flight[size];
+    size = 0;
+    flights = new Flight[2];
   }
 
   /**
@@ -31,15 +31,11 @@ public class Airline {
    */
   public void addFlight(String flightNum, String from, String to, int duration, int transfers) {
     Flight flight = new Flight(flightNum, from, to, duration, transfers);
-    if (flights[size-1]!=null) {
+    if (size == flights.length) {
         flights = growArray(flights);
-        size *= 2;
     }
-    int findNullIndex = 0;
-    while (flights[findNullIndex] != null) {
-        findNullIndex++;
-    }
-    flights[findNullIndex] = flight;
+    flights[size] = flight;
+    size++;
   }
 
 
