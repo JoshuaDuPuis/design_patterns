@@ -1,0 +1,33 @@
+What is an animal called that eats plants and meat?
+ 1. Carnivore
+ 2. Herbivore
+ 3. Omnivore
+ 4. Pescatarian
+
+Enter Answer: 3
+YAY! You got it right!
+(P)lay or (Q)uit: p
+
+What type of animal is a seahorse?
+ 1. Crustacean
+ 2. Arachnid
+ 3. Fish
+ 4. Shell
+
+Enter Answer: 4
+You got it wrong!
+The correct answer is Fish
+(P)lay or (Q)uit: p
+
+What existing bird has the largest wingspan?
+ 1. Stork
+ 2. Swan
+ 3. Condor
+ 4. Albatross
+
+Enter Answer: 4
+YAY! You got it right!
+(P)lay or (Q)uit: q
+
+You won 2 games!
+Goodbye
