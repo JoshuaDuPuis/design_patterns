@@ -44,8 +44,7 @@ public class TriviaGame {
   public void play() {
     String userEnter = "p";
     while (!(userEnter.equals("q"))) {
-      boolean b = playRound();
-      if (b) {
+      if (playRound()) {
           score++;
       }
       System.out.println("(P)lay or (Q)uit: ");
