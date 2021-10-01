@@ -6,6 +6,7 @@ import java.util.Scanner;
  * only one instance of a TriviaGame can be created. The TriviaGame object will
  * hold an ArrayList of questions and facilitate interaction between the game
  * and the user.
+ * @author Joshua DuPuis
  */
 public class TriviaGame {
   private static TriviaGame triviaGame;
@@ -28,7 +29,7 @@ public class TriviaGame {
 
   /**
    * The getInstance method returns the instance of the TriviaGame
-   * @return
+   * @return The instance of the TriviaGame class
    */
   public static TriviaGame getInstance() {
     if (triviaGame == null) {
