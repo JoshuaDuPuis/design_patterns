@@ -6,6 +6,7 @@ import java.util.GregorianCalendar;
 /**
  * The MedicalRecordAdapterClass adapts a HealthRecord into a medical record
  * so that it can be stored in the same format as a medical record.
+ * @author Joshua DuPuis
  */
 
 public class MedicalRecordAdapter implements MedicalRecord {
