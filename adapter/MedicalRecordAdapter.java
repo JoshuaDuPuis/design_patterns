@@ -97,6 +97,8 @@ public class MedicalRecordAdapter implements MedicalRecord {
     /**
      * The toString method converts the HealthRecord into a String format that
      * matches the format of a MedicalRecord.
+     * @return A String representation of the HealthRecord that matches the
+     * String representation of a MedicalRecord
      */
     public String toString() {
         SimpleDateFormat sdf = new SimpleDateFormat("MM/dd/yyyy");
